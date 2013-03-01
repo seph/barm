@@ -1,4 +1,4 @@
-# Epiphanybuilders.com
+# http://www.bayarearadicalmycology.org/
 
 
 ## Getting Started
