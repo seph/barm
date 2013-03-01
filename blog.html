@@ -1,0 +1,15 @@
+---
+layout: default
+title: "Blog"
+description: "The Bay Area Radical Mycology Group."
+id: blog
+---
+
+
+
+<div class="posts">
+  {% for post in site.posts %}
+    <pre>{{ post.content }}</pre>
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</div>

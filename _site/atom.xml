@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>your page's title</title>
+ <link href="http://your.pages.url/atom.xml" rel="self" />
+ <link href="http://your.pages.url/" />
+ <updated>2013-02-28T16:51:30-08:00</updated>
+ <id>http://your.pages.url<id>
+ <author>
+   <name>site.owner-name</name>
+   <email>site.owner-email</email>
+ </author>
+
+ 
+ <entry>
+   <title>First Post</title>
+   <link href="http://your.pages.url/poetry/2012/02/28/first-post.html" />
+   <updated>2012-02-28T00:00:00-08:00</updated>
+   <id>http://lebobs.ch//poetry/2012/02/28/first-post</id>
+   <content type="html">&lt;h3&gt;Mushrooms in Japanese Verse, haiku collected by R.H. Blyth. Various dates. Some go back to the 17th Century.&lt;/h3&gt;
+
+&lt;p&gt;  Coming down the mountain              Hatsutake no
+  Through the drizzle                   kaori n furidasu
+  To the scent of the first mushrooms   kosame kana           Chigetsu&lt;/p&gt;
+
+&lt;p&gt;  Mushroom hunting                      Nigemo
+  They don't run away                   senu no wo awate
+  But everyone is in such a hurry!      kinoko-gari&lt;/p&gt;
+
+&lt;p&gt;  Pretending                            Kai kinoko
+  The mushrooms bought                  totta furi shite
+  Had been gathered                     modori keri           Issa&lt;/p&gt;
+
+&lt;p&gt;  It would be nice to make              Enmao
+  The lord's retainer                   warai kinoko wo
+  Eat Laughing Mushroom                 chito maire           Issa  (Gymnopilus spectabilis, Laughing Jim)&lt;/p&gt;
+
+&lt;p&gt;  Taking hold with the hand             Ureshisa no
+  Of the happiness of the mountain      yama wo Tsukamu ya
+  Mushroom gathering!                   raisha Kinokogari     Raisha&lt;/p&gt;
+
+&lt;p&gt;  Mushroom gathering                    Takegari ya
+  Only the crescent Moon                mikazuki hitotsu
+  Left unplucked                        sanrei Torinokoshi    Sanrei&lt;/p&gt;
+
+&lt;p&gt;  The oak tree falls on them            Hahaso ochite
+  and the scent rises                   matsutake mienu
+  of unseen Matsutake                   gyoji Nioi kana       Gyoji&lt;/p&gt;
+
+&lt;p&gt;  I forgot falling off the horse        Ureshisa ni
+  With the happiness                    rakuba wasururu
+  Of finding mushrooms                  ukei Kinoko kana      Ukei&lt;/p&gt;
+
+&lt;p&gt;  Matsutake;                            Matsutake ya
+  Taken by someone else                 hito ni toraruru
+  Right in front of my nose             kyorai Hana no saki   Kyorai&lt;/p&gt;
+
+&lt;p&gt;  Mushroom gathering:                   Takegari ya
+  Today let's go on until we fall over  kyo wa ki no ne ni
+  The roots of the trees                kaso Korobu made      Kaso&lt;/p&gt;
+
+&lt;p&gt;  Matsutake                             Matsutake ya
+  From the depths of the pine forest    matsu yori oku no
+  The voice of the hawk                 taka no koe           Koya&lt;/p&gt;
+
+&lt;p&gt;  Mushroom gathering;                   Takegari ya
+  From greediness                       yoku kara michi ni
+  We lost our way                       fumimayoi             Jiraku&lt;/p&gt;
+
+&lt;p&gt;  Before my hand                        Te no mae ni
+  Stretched out for the mushroom        cho no ikizuku
+  A butterfly breathing                 kinoko kana           Issa&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>

@@ -1,0 +1,65 @@
+a {
+	color : black
+}
+
+.name {
+  font-size: 28px;
+}
+
+body {
+  background-image: url('/img/bg.png');
+  font-family: Georgia, serif;
+  line-height: 1.5;
+  margin: 3 auto;
+}
+
+.logo {
+  border: 3px solid gray;
+  border-radius: 15px;
+  background-color: white;
+  font-size: 12px;
+  line-height: 1.3;
+  padding: 5px;
+  float: right;
+  width: 325px;
+  margin-right: 3px;
+}
+
+.nav{
+  background: #fff;
+  border: 2px solid #000;
+  display: inline-block;
+  float: left;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  border-radius: 8px;
+}
+
+.nav li{
+  display: inline-block;
+  float: left;
+  line-height: 30px;
+  border-right: 1px solid #ccc;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li a{
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.nav li a:hover{
+  background: #ccc;
+}
+
+#home .nav li a.home,
+#calendar .nav li a.calendar,
+#about .nav li a.about,
+#blog .nav li a.blog{
+  background: #ccc;
+}
+
+
+
