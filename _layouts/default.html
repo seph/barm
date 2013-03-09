@@ -11,20 +11,26 @@
         <meta name="description" content="{{page.description}}">
         <meta name="viewport" content="width=device-width">
 
-        <link rel="stylesheet" href="css/site.css" type="text/css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/site.css" type="text/css">
 
     </head>
     
-    <body id="{{page.id}}">
+    <body id="{{page.bodyClassName}}">
         
-        <ul class="nav">
-            <li><a class="home" href="/barm/">Home</a></li>
-            <li><a class="about" href="about.html">About</a></li>
-            <li><a class="calendar" href="calendar.html">Calendar</a></li>
-            <li><a class="blog" href="blog.html">Blog</a></li>
-        </ul>
-        
-		{{ content }}
+        <div class="header">
+          <ul class="nav">
+              <li><a class="home" href="{{ site.baseurl }}/">Home</a></li>
+              <li><a class="about" href="{{ site.baseurl }}/about.html">About</a></li>
+              <li><a class="calendar" href="{{ site.baseurl }}/calendar.html">Calendar</a></li>
+              <li><a class="blog" href="{{ site.baseurl }}/blog.html">Blog</a></li>
+          </ul>
+        </div>
+      
+        <div class="page">
+          <div class="inner">
+            {{ content }}
+          </div>
+       </div>
 	</body>
 </html>
 

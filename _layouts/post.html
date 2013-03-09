@@ -1,15 +1,50 @@
 ---
 layout: default
+bodyClassName: blog
 ---
-<div id="post">
-{{ content }}
-</div>
 
-<div id="related">
-  <h2>Related Posts</h2>
-  <ul class="posts">
-    {% for post in site.related_posts limit:3 %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% if page.id == 'blog' %}
+  {% assign p = site.posts.first %}
+  {% assign c = p.content %}
+{% else %}
+  {% assign p = page %}
+  {% assign c = content %}
+{% endif %}
+
+<div class="post-links">
+  <h3>Recent Posts</h3>
+  <ul>
+    {% for post in site.posts %}
+        <li>
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><br/>
+          <small>
+            {{ post.date | date_to_string }}
+          </small>
+        </li>
     {% endfor %}
   </ul>
 </div>
+
+<div class="post">
+    <h2>{{p.title}}</h2>
+    <div class="posted-by">{{p.author}}
+    {{ p.date | date_to_string }}
+    </div>
+    <p>
+      {{ c }}
+    </p>
+    
+</div>
+
+<div class="post-footer">
+  
+  {% if p.previous %}
+    Previous: <a href="{{ site.baseurl }}{{  p.previous.url }}">{{ p.previous.title }}</a><br/>
+  {% endif %}
+  
+  {% if p.next %}
+    Next: <a href="{{ site.baseurl }}{{  p.next.url }}">{{ p.next.title }}</a>
+  {% endif %}
+  
+</div>
+
