@@ -1,7 +1,7 @@
 ---
 layout: post
 category : poetry
-author: Joe Hartman
+author: Mino de Angelis
 tags : [poetry]
 ---
 
